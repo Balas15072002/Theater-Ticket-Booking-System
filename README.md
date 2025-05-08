@@ -44,10 +44,8 @@
 ---
 
 ## Model Classes
-
-### 1. User
 ```java
-1.User{
+	1.User{
 	
 	    int userid;
 	    String name;
