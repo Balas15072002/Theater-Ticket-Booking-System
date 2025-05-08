@@ -44,68 +44,56 @@
 ---
 
 ## Model Classes
-```java
-	1.User{
-	
-	    int userid;
-	    String name;
-	    String email;
-	    long contact;
-	    int age;
-	 }
-	
-	2.Theatre Seat Managers{
-	
-	    int managerid;
-	    String name;
-	    String email;
-	    long contact;
-	    String password;
-	    String confirm_password;
-	}
-	
-	3.Movie{
-	
-	    int movieid;
-	    String title;
-	    String genre;
-	    String actor;
-	    String actress;
-	    String villain;
-	    String singer;
-	    String release_date;
-	}
-	
-	4.Seat{
-	
-	    int seatid;
-	    boolean isBooked;
-	    boolean isBlocked;
-	    double price;  
-	}
-	
-	5.Booking{
-	
-	    int bookingid;
-	    int userid;
-	    int seatid;
-	    int movieid;
-	    LocalDate booking_date_time;
-	    int paymentid;
-	    boolean isConfirm_ticket;
-	}
-	
-	6.Discount{
-	
-	    int discountid;
-	    double amount;
-	    String validTill;
-	}
-	
-	7.Payment{
-	
-	    int paymentid;
-	    String paymentMethod;
-	    double amount;
-	    boolean status;
-	}
+
+### 🔹 User
+- int userid  
+- String name  
+- String email  
+- long contact  
+- int age  
+
+### 🔹 Theatre Seat Managers
+- int managerid  
+- String name  
+- String email  
+- long contact  
+- String password  
+- String confirm_password  
+
+### 🔹 Movie
+- int movieid  
+- String title  
+- String genre  
+- String actor  
+- String actress  
+- String villain  
+- String singer  
+- String release_date  
+
+### 🔹 Seat
+- int seatid  
+- boolean isBooked  
+- boolean isBlocked  
+- double price  
+
+### 🔹 Booking
+- int bookingid  
+- int userid  
+- int seatid  
+- int movieid  
+- LocalDate booking_date_time  
+- int paymentid  
+- boolean isConfirm_ticket  
+
+### 🔹 Discount
+- int discountid  
+- double amount  
+- String validTill  
+
+### 🔹 Payment
+- int paymentid  
+- String paymentMethod  
+- double amount  
+- boolean status  
+
+---
