@@ -1,4 +1,4 @@
-package com.zsgs.showtime.data.dto;
+package com.zsgs.showtime.repository.dto;
 
 public class TheaterManager {
     private int managerId;

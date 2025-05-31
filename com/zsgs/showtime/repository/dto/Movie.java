@@ -1,6 +1,4 @@
-package com.zsgs.showtime.data.dto;
-
-import java.time.LocalDate;
+package com.zsgs.showtime.repository.dto;
 
 public class Movie {
     private String movieId;
